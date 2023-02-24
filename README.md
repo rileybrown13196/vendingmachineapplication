@@ -4,8 +4,20 @@ Simple vending machine application that allows users to insert quarters, select 
 OVERVIEW:
 This is a simple application that allows users to insert quarters into a vending machine, view a list of products, select and product, and dispense the selected product.
 
+STEPS:
+No Balance : The user needs to input quarters into the system. They cannot dispense a product until a balance is present. 
 
+Has Balance: The user has input quarters into the application. They can now select a product or eject quarters if they change their mind. 
+Products will be displayed with an image of the product as well as an item code. 
+The user will input the item code into the text box and select submit to select the product. 
+Now the user can dispense the item by pressing the dispense button. 
 
+Sold:
+If the user has inserted sufficient quarters, a message will be displayed saying "Enjoy you 'product name'".
+The inventory in the database will be updated. Currently only one product is dispensed at a time. 
+
+Sold Out:
+Once the product count has reached 0, a sold out message is displayed underneath the product. The user can no longer dispense the product. If they try to, a message will be displayed stating no remaining inventory.
 
 
 BACKEND:
@@ -62,3 +74,35 @@ CREATE TABLE purchase_log (
     purchase_date DATETIME,
     PRIMARY KEY (ID)
 );
+
+Product I used for testing:
+image_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKUkycaQ9oB8322OYHfxwwQ6YUUTFsTzZdmA&usqp=CAU
+product_code: 11
+product_count: 5
+product_name: soda_cola
+
+
+
+TOOLS USED: 
+
+Developing backend:
+IntelliJ
+Java utilizing Spring Boot.
+I used the following url to generate a basic spring boot package: http://start.spring.io/
+
+Testing Apis:
+Postman
+
+Database:
+MySql
+
+Frontend:
+WebStorm
+Angular CLI project 
+
+
+
+Postman Testing Examples:
+
+Add product to product table:
+
