@@ -101,8 +101,49 @@ WebStorm
 Angular CLI project 
 
 
-
-Postman Testing Examples:
+POSTMAN TESTING EXAMPLES:
 
 Add product to product table:
+POST http://localhost:8080/product/addProduct
+Body:
+{
+    "productName": "soda_cola",
+    "productCount": 10,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKUkycaQ9oB8322OYHfxwwQ6YUUTFsTzZdmA&usqp=CAU",
+    "productCode": 11
+}
+
+Get Products:
+GET http://localhost:8080/product/all
+JSON Body:
+{
+    "productName": "soda_cola",
+    "productCount": 10,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKUkycaQ9oB8322OYHfxwwQ6YUUTFsTzZdmA&usqp=CAU",
+    "productCode": 11
+}
+
+UpdateProductCount:
+PUT http://localhost:8080/product/updateProductCount/11
+Body:
+{
+    "productName": "soda_cola",
+    "productCount": 10,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKUkycaQ9oB8322OYHfxwwQ6YUUTFsTzZdmA&usqp=CAU",
+    "productCode":11
+}
+
+Add Log Entry:
+POST http://localhost:8080/logging/addProductLog
+Body:
+{
+    "productPurchased": "soda_cola",
+    "productCount": 1,
+    "productCode": 11
+}
+
+
+
+
+
 
