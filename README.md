@@ -1,5 +1,13 @@
 # vendingmachineapplication
 Simple vending machine application that allows users to insert quarters, select products and dispense the selected item
+
+OVERVIEW:
+This is a simple application that allows users to insert quarters into a vending machine, view a list of products, select and product, and dispense the selected product.
+
+
+
+
+
 BACKEND:
 
 Modify the application properties to connect to your DB. View Screenshot attached for example.
