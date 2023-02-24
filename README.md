@@ -1,8 +1,13 @@
 # vendingmachineapplication
 Simple vending machine application that allows users to insert quarters, select products and dispense the selected item
 
+_________________________________________________________________________________________
+
 OVERVIEW:
 This is a simple application that allows users to insert quarters into a vending machine, view a list of products, select and product, and dispense the selected product.
+
+_________________________________________________________________________________________
+
 
 STEPS:
 No Balance : The user needs to input quarters into the system. They cannot dispense a product until a balance is present. 
@@ -19,6 +24,7 @@ The inventory in the database will be updated. Currently only one product is dis
 Sold Out:
 Once the product count has reached 0, a sold out message is displayed underneath the product. The user can no longer dispense the product. If they try to, a message will be displayed stating no remaining inventory.
 
+_________________________________________________________________________________________
 
 BACKEND:
 
@@ -32,8 +38,7 @@ replace {YourPassword} with the DB password you are using.
 
 If not using MySQL, you will also need to replace the last line of the db configuration to the correct dialect instead of MySQL5Dialect.
 
-
-
+_________________________________________________________________________________________
 
 FRONTEND: 
 
@@ -45,7 +50,7 @@ npm install
 Start the app:
 ng serve
 
-
+_________________________________________________________________________________________
 
 DATABASE:
 
@@ -81,7 +86,7 @@ product_code: 11
 product_count: 5
 product_name: soda_cola
 
-
+_________________________________________________________________________________________
 
 TOOLS USED: 
 
