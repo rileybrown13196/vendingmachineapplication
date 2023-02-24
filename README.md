@@ -150,7 +150,7 @@ Body:
 _________________________________________________________________________________________
 
 Possible Future Enhancements:
-1. Vendor Page to add new products, "restock"/update the product count, delete products, etc.
+1. Addition of Vendor Page to add new products, "restock"/update the product count, delete products, etc.
 2. Allowing more buttons to add different types of currency to be added to the balance. 
 3. Change product count reduction from 1 to a changeable value: user wants 3 items, BOGO promotion, etc.
 4. Overall Design of webpage structure. This is a very basic shell to show functionality. 
