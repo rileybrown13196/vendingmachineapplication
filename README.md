@@ -92,18 +92,29 @@ TOOLS USED:
 
 Developing backend:
 IntelliJ
+
 Java utilizing Spring Boot.
+
 I used the following url to generate a basic spring boot package: http://start.spring.io/
 
+
 Testing Apis:
+
 Postman
 
+
 Database:
+
 MySql
 
+
 Frontend:
+
 WebStorm
+
 Angular CLI project 
+
+_________________________________________________________________________________________
 
 
 POSTMAN TESTING EXAMPLES:
